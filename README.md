@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋👋👋</h1>
+<h1 align="center">Hi there 👋👋</h1>
 <h3 align="center">I'm Gabriel, currently I work as a full stack developer</h3>
 
 - 🌱 I’m currently learning **AI, ML, Data Science**
