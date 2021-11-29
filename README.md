@@ -16,3 +16,5 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=oliveira-gabriel&show_icons=true&locale=en&layout=compact" alt="oliveira-gabriel" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=oliveira-gabriel&show_icons=true&locale=en" alt="oliveira-gabriel" /></p>
+
+![Snake animation](https://github.com/oliveira-gabriel/oliveira-gabriel/blob/output/github-contribution-grid-snake.svg)
