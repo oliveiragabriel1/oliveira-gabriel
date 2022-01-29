@@ -17,4 +17,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=oliveira-gabriel&show_icons=true&locale=en" alt="oliveira-gabriel" /></p>
 
-![Snake animation](https://github.com/oliveira-gabriel/oliveira-gabriel/blob/output/github-contribution-grid-snake.svg)
+<!-- ![Snake animation](https://github.com/oliveira-gabriel/oliveira-gabriel/blob/output/github-contribution-grid-snake.svg) -->
