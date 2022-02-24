@@ -1,7 +1,7 @@
 <h1 align="center">Hi there 👋👋👋</h1>
 <h3 align="center">I'm Gabriel, currently I work as a full stack developer</h3>
 
-- 🌱 I’m currently learning **Flutter**
+- 🌱 I’m currently learning **Flutter and Design Patterns**
 
 - 💬 Ask me about **React, React Native**
 
