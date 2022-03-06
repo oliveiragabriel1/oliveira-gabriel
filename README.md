@@ -2,7 +2,7 @@
 ### A passionate mobile developer
 
 
-<img src="https://github.com/oliveira-gabriel/oliveira-gabriel/blob/main/dev.gif?raw=true" width="50%" style="min-width:250px;"/>
+<img src="https://github.com/oliveira-gabriel/oliveira-gabriel/blob/main/dev.gif?raw=true" width="50%"/>
 
 
 
