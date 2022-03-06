@@ -1,5 +1,10 @@
-<h1 align="center">Hi 👋, I'm Gabriel</h1>
-<h3 align="center">A passionate mobile developer</h3>
+# Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" height="30" width="30"/>, I'm Gabriel
+### A passionate mobile developer
+
+
+<img src="https://raw.githubusercontent.com/oliveira-gabriel/oliveira-gabriel/master/img/dev.gif" width="50%" />
+
+
 
 - 🔭 I’m currently working in **Luby Software**
 
