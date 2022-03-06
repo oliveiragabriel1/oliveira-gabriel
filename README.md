@@ -1,20 +1,19 @@
 <h1 align="center">Hi 👋, I'm Gabriel</h1>
 <h3 align="center">A passionate mobile developer</h3>
 
-- 🔭 I’m currently working in **Luby Software** - 🌱 I’m currently learning
-**Flutter and Swift** - 💬 Ask me about **React Native**
+- 🔭 I’m currently working in **Luby Software**
+
+- 🌱 I’m currently learning **Flutter and Swift**
+
+- 💬 Ask me about **React Native**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://linkedin.com/in/gabrieloliveira472" target="blank"
-    ><img
-      align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="gabrieloliveira472"
-      height="30"
-      width="40"
-  /></a>
+  <a href="https://linkedin.com/in/gabrieloliveira472" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gabrieloliveira472" height="30" width="40" />
+  </a>
 </p>
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
