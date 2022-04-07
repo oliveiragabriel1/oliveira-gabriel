@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: set url
-        run: echo URL="TESTE"
+        run: echo "{URL}={'TESTE'}" >> $GITHUB_ENV
         shell: bash
         
       - name: 'Call API'
