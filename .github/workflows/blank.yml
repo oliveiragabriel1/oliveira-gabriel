@@ -1,0 +1,17 @@
+name: Example of axios action
+on: [ push ]
+jobs:
+  test-curl-action:
+    name: 'Perform REST API'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Call API'
+        uses: actionsflow/axios@v1
+        id: api
+        with:
+          url: https://hookbin.com/eKgjENOKRYUeYYRdXL6W
+          method: 'POST'
+          data: '{ "name": "breeze",  "job": "devops" }'
+      - run: echo ${{ steps.api.outputs.status }}
+      - run: echo ${{ steps.api.outputs.data }}
+      - run: echo ${{ steps.api.outputs.headers }}
