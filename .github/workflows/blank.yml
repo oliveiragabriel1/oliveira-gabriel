@@ -9,7 +9,7 @@ jobs:
         uses: actionsflow/axios@v1
         id: api
         with:
-          url: https://hookbin.com/eKgjENOKRYUeYYRdXL6W
+          url: https://reqres.in/api/users
       - run: echo ${{ steps.api.outputs.status }}
       - run: echo ${{ steps.api.outputs.data }}
       - run: echo ${{ steps.api.outputs.headers }}
