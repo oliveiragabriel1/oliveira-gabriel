@@ -5,6 +5,10 @@ jobs:
     name: 'Perform REST API'
     runs-on: ubuntu-latest
     steps:
+      - name: set url
+        run: echo URL="TESTE"
+        shell: bash
+        
       - name: 'Call API'
         uses: actionsflow/axios@v1
         id: api
@@ -12,7 +16,7 @@ jobs:
           url: ${{ secrets.WEBHOOK_DISCORD }}
           method: 'POST'
           headers: '{ "Content-Type": "application/json" }'
-          data: '{ "username": "Peppe: O entregador",  "content": "Novo apk disponível: ", "avatar": "https://user-images.githubusercontent.com/59540379/162231456-9f0554ab-d465-4632-ac2f-3121347383d3.png" }'
+          data: '{ "username": "Peppe: O entregador",  "content": "Novo apk disponível: ${{ env.URL }}", "avatar_url": "https://user-images.githubusercontent.com/59540379/162231456-9f0554ab-d465-4632-ac2f-3121347383d3.png" }'
 
       - run: echo ${{ steps.api.outputs.status }}
       - run: echo ${{ steps.api.outputs.data }}
