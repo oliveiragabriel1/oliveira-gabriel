@@ -9,12 +9,13 @@ jobs:
     steps:
 
       - name: 🚀 Build app
-        run: echo buildLog=$'https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b'
+        run: echo buildLog=$'teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b'
         
       - name: set url
  
         id: url
         run: |
+          $buildLog | awk 'NF>1{print $NF}'
           url=$($buildLog | awk 'NF>1{print $NF}')
           echo url
           echo "::set-output name=URL::$(url)"
