@@ -6,7 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: set url
-        run: echo "{URL}={'TESTE'}" >> $GITHUB_ENV
+        id: url
+        run: echo "::set-output name=URL::$('TESTE')\n"
         shell: bash
         
       - name: 'Call API'
@@ -16,7 +17,7 @@ jobs:
           url: ${{ secrets.WEBHOOK_DISCORD }}
           method: 'POST'
           headers: '{ "Content-Type": "application/json" }'
-          data: '{ "username": "Peppe: O entregador",  "content": "Novo apk disponível: <<<${{URL}}>>>", "avatar_url": "https://user-images.githubusercontent.com/59540379/162231456-9f0554ab-d465-4632-ac2f-3121347383d3.png" }'
+          data: '{ "username": "Peppe: O entregador",  "content": "Novo apk disponível: <<<${{ steps.url.outputs.URL }}>>>", "avatar_url": "https://user-images.githubusercontent.com/59540379/162231456-9f0554ab-d465-4632-ac2f-3121347383d3.png" }'
 
       - run: echo ${{ steps.api.outputs.status }}
       - run: echo ${{ steps.api.outputs.data }}
