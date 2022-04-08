@@ -15,8 +15,7 @@ jobs:
           link=$(echo 'ahushusa teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b')
           url=$($link | grep -o '[^ ]*$')
           echo "::set-output name=URL::$url"
-        shell: bash
-
+          
       - name: 'Call API'
         uses: actionsflow/axios@v1
         id: api
