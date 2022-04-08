@@ -15,7 +15,7 @@ jobs:
           sudo apt install -y gawk
           link=$'ahushusa teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b'
           echo $link
-          url=$($link || awk '{ print $NF }')
+          url=$($link | awk '{ print $NF }')
           echo "::set-output name=URL::$url"
           
       - name: 'Call API'
