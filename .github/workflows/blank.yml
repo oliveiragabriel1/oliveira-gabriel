@@ -7,31 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 🏗 Setup repo
-        uses: actions/checkout@v2
-
-      - name: 🏗 Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.x
-          cache: yarn
-
-      - name: 🏗 Setup Expo
-        uses: expo/expo-github-action@v7
-        with:
-          expo-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
-
-      - name: 📦 Install dependencies
-        run: yarn
 
       - name: 🚀 Build app
-        env:
-          ENV_API_URL: ${{ secrets.ENV_API_URL }}
-          ENV_API_KEY: ${{ secrets.ENV_API_KEY }}
-          WEBHOOK: ${{ secrets.WEBHOOK_DISCORD }}
-        run: |
-        echo buildLog=/home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/hooks /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/index.tsx /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/interfaces /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/pages /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/routes /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/services /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/store [15:09:33] [15:09:33] Uploading JavaScript bundles [15:09:35] Publish complete [15:09:35] 📝 Manifest: https://exp.host/@luby/CasparBank/index.exp?release-channel=development&sdkVersion=43.0.0 Learn more: https://expo.fyi/manifest-url [15:09:35] Checking if this build already exists... [15:09:36] Build started, it may take a few minutes to complete. [15:09:36] You can check the queue length at https://expo.dev/turtle-status [15:09:36] You can monitor the build at https://expo.dev/accounts/luby/projects/CasparBank/builds/a76785a2-6891-4bdd-ac2c-ad042dfdf9fe [15:09:36] Waiting for build to complete. You can press Ctrl+C to exit. It won't cancel the build, you'll be able to monitor it at the printed URL. [15:14:08] Successfully built standalone app: https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b
+        run: echo buildLog="/home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/hooks /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/index.tsx /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/interfaces /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/pages /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/routes /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/services /home/runner/work/CASPAR.BANK.APP/CASPAR.BANK.APP/src/store [15:09:33] [15:09:33] Uploading JavaScript bundles [15:09:35] Publish complete [15:09:35] 📝 Manifest: https://exp.host/@luby/CasparBank/index.exp?release-channel=development&sdkVersion=43.0.0 Learn more: https://expo.fyi/manifest-url [15:09:35] Checking if this build already exists... [15:09:36] Build started, it may take a few minutes to complete. [15:09:36] You can check the queue length at https://expo.dev/turtle-status [15:09:36] You can monitor the build at https://expo.dev/accounts/luby/projects/CasparBank/builds/a76785a2-6891-4bdd-ac2c-ad042dfdf9fe [15:09:36] Waiting for build to complete. You can press Ctrl+C to exit. It won't cancel the build, you'll be able to monitor it at the printed URL. [15:14:08] Successfully built standalone app: https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b"
         
       - name: set url
  
