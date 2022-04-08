@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: set url
         id: url
-        run: echo "::set-output name=URL::$('TESTE')\n"
+        run: echo "::set-output name=URL::TESTE"
         shell: bash
         
       - name: 'Call API'
