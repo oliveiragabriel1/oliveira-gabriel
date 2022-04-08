@@ -12,7 +12,7 @@ jobs:
  
         id: url
         run: |
-          link=$(echo "ahushusa teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b")
+          link=$(echo 'ahushusa teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b')
           url=$($link | grep -o '[^ ]*$')
           echo "::set-output name=URL::$url"
         shell: bash
