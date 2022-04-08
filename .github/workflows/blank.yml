@@ -15,7 +15,7 @@ jobs:
  
         id: url
         run: |
-          URL=$(echo $buildLog | awk 'NF>1{print $NF}')
+          echo $buildLog | awk 'NF>1{print $NF}' >> URL
           echo URL
           echo "::set-output name=URL::$(URL)"
         shell: bash
