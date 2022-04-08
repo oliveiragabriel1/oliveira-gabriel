@@ -15,9 +15,9 @@ jobs:
  
         id: url
         run: |
-          echo $buildLog | awk 'NF>1{print $NF}' >> URL
-          echo URL
-          echo "::set-output name=URL::$(URL)"
+          url=$($buildLog | awk 'NF>1{print $NF}')
+          echo url
+          echo "::set-output name=URL::$(url)"
         shell: bash
 
       - name: 'Call API'
