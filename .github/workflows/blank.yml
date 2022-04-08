@@ -12,9 +12,9 @@ jobs:
  
         id: url
         run: |
-          echo buildLog="ahushusa teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b"
+          buildLog="ahushusa teste https://expo.dev/artifacts/f0cdab10-6f80-47b0-a796-d60a630c753b"
           echo $buildLog | awk 'NF>1{print $NF}'
-          echo url=$($buildLog | awk '{print $NF}')
+          url=$($buildLog | awk '{print $NF}')
           echo "::set-output name=URL::$url"
         shell: bash
 
