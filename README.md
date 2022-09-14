@@ -196,7 +196,7 @@
 <p>
   <img
     align="center"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=oliveira-gabriel&show_icons=true&locale=en&layout=compact"
-    alt="oliveira-gabriel"
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=oliveiragabriel1&show_icons=true&locale=en&layout=compact"
+    alt="oliveiragabriel1"
   />
 </p>
