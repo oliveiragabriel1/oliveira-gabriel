@@ -12,9 +12,9 @@
 
 - 🔭 I’m currently working in **Luby Software**
 
-- 🌱 I’m currently learning **Flutter and Swift**
+- 🌱 I’m currently learning **Swift**
 
-- 💬 Ask me about **React Native**
+- 💬 Ask me about **React Native and Swift**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
