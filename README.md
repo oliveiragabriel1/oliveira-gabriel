@@ -10,7 +10,7 @@
  
 
 
-- 🔭 I’m currently working in **Luby Software**
+- 🔭 I’m currently working at **Luby Software**
 
 - 🌱 I’m currently learning **Swift**
 
