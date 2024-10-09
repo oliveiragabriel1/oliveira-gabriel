@@ -10,9 +10,9 @@
  
 
 
-- 🔭 I’m currently working at **Luby Software**
+- 🔭 I’m currently working at **Act Digital**
 
-- 🌱 I’m currently learning **Swift**
+- 🌱 I’m currently learning **NodeJS**
 
 - 💬 Ask me about **React Native and Swift**
 
